@@ -198,6 +198,10 @@ header, main, footer {
         margin-left: 60px;
     }
 }
+
+#nav-mobile{
+    width: 240px;
+}
     
   
 @keyframes blinker {
