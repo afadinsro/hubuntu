@@ -1,1 +1,0 @@
-# Afadinsro.github.io
