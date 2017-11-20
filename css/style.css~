@@ -176,30 +176,11 @@ header, main, footer {
     padding-left: 0; }
 
   .brand-logo.page-title {
-    padding: inherit; } 
-}
+    padding: inherit; } }
 @media only screen and (min-width: 993px) {
   #toast-container {
     right: 3%;
-    top: 11%; }
-}
-@media screen and (min-width: 1400px) {
-    .adjust {
-        margin-left: 60px;
-    }
-}
-@media screen and (min-width: 1600px) {
-    .adjust {
-        margin-left: 60px;
-    }
-}
-@media screen and (min-width: 1900px) {
-    .adjust {
-        margin-left: 60px;
-    }
-}
-    
-  
+    top: 11%; } }
 @keyframes blinker {
   50% {
     opacity: 0.0; } }
