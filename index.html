@@ -59,12 +59,13 @@
     </ul>
   </div>
 </nav>
+<!- SIDE NAV-->
 <ul id="nav-mobile" class="side-nav custom-side-nav fixed">
   <li class="grey darken-4">
     <div class="user">
       <div class="chip grey darken-3 white-text">
         <img src="http://blogs-images.forbes.com/jasonevangelho/files/2013/03/Linus-Torvalds.jpg" alt="Contact Person">
-        Jeremy Lean
+        Joseph Mills
       </div>
     </div>
   </li>
@@ -82,6 +83,7 @@
     Dashboard
   </h6>
 </div>
+<!- CARDS-->
 <div class="card card-header">
   <div class="card-content">
     <span class="card-title black-text">
@@ -132,49 +134,6 @@
     </div>
   </div>
 </div>
-<div class="row">
-  <div class="col s12 m12 l6">
-    <ul id="projects-collection" class="collection">
-      <li class="collection-item avatar">
-        <i class="material-icons circle pink darken-4">clear_all</i>
-        <span class="collection-header">System Process</span>
-        <p>
-          Queued
-        </p>
-        <a href="#" class="secondary-content">
-          <i class="material-icons grey-text">refresh</i>
-        </a>
-      </li>
-      <li class="collection-item">
-        <small>Checking queue</small>
-        <div class="progress grey lighten-3">
-          <div class="indeterminate grey"></div>
-        </div>
-      </li>
-    </ul>
-  </div>
-  <div class="col s12 m12 l6">
-    <ul id="projects-collection" class="collection">
-      <li class="collection-item avatar">
-        <i class="material-icons circle pink darken-4">bug_report</i>
-        <span class="collection-header">Issues</span>
-        <p>
-          <span class="pink-text darken-text-4">4</span>
-          Detected
-        </p>
-        <a href="#" class="secondary-content">
-          <i class="material-icons grey-text">refresh</i>
-        </a>
-      </li>
-      <li class="collection-item">
-        <small>Tracking issues</small>
-        <div class="progress grey lighten-3">
-          <div class="indeterminate grey"></div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
 </main>
 <main>
 </main>
@@ -217,14 +176,9 @@
     }, 2000)
     , toastTimeout = window.setTimeout(function setToastTimeout() {
       //Some toast
-      Materialize.toast('Welcome back Jeremy', 4000);
+      Materialize.toast('Welcome back Joseph', 4000);
       window.clearTimeout(toastTimeout);
     }, 3000)
-    , secondToastTimeout = window.setTimeout(function setSecondToastTimeout() {
-      //Some toast
-      Materialize.toast('Hubuntu UI is available on &nbsp;<a class="deep-orange-text text-lighten-1" href="https://github.com/720kb/hubuntu-ui" target="_blank">Github</a>', 60000);
-      window.clearTimeout(secondToastTimeout);
-    }, 5000);
     })();
 </script>
 </body>
